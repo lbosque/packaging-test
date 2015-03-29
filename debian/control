@@ -1,0 +1,13 @@
+Source: s3tools
+Section: misc
+Priority: optional
+Maintainer: Luis Bosque <luisico@gmail.com>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.5
+Homepage: <insert the upstream URL, if relevant>
+Vcs-Git: git://github.com/lbosqeue/s3tools.git
+
+Package: s3tools
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: s3tools 
